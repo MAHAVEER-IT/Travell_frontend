@@ -1,0 +1,39 @@
+.logo {
+  display: none;
+}
+
+.card {
+  display: none;
+}
+
+.read-the-docs {
+  display: none;
+}
+
+.app {
+  display: flex;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.auth-page {
+  margin-left: 0;
+  width: 100vw;
+}
+
+.main-content {
+  flex: 1;
+  background-color: #f5f5f5;
+  padding: 20px;
+  margin-left: 250px;
+  width: calc(100vw - 250px);
+  min-height: 100vh;
+  transition: margin-left 0.3s ease, width 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    margin-left: 0;
+    width: 100vw;
+  }
+}
