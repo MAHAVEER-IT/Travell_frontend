@@ -1,4 +1,4 @@
-const BASE_URL = 'http://localhost:5000/api'
+const BASE_URL = 'https://travell-backend.onrender.com/api'
 
 // For development/testing purposes
 const ADMIN_CREDENTIALS = {
